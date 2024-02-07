@@ -1,0 +1,215 @@
+.Contact {
+    margin-top: 100px;
+}
+
+.Contact .right {
+   width: 46%;
+   margin-top: 700px;
+   margin-left: -600px;
+}
+
+.Contact .right {
+    width: 60%;
+    padding: 5px;
+}
+
+.Contact .box_one {
+
+    padding: 21px 25px;
+    border-radius: 8px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 500px;
+
+    background: linear-gradient(662deg, pink, red);
+    box-shadow: 3px 3px 1px red, 10px 8px 1px black;
+
+}
+
+.Contact .box_two {
+
+    padding: 58px 145px;
+    border-radius: 8px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+    
+
+    height: 548px;
+    margin-left: 50px;
+    margin-top: 605px;
+    max-width: 100%;
+ 
+
+    background: linear-gradient(662deg, pink, red);
+    box-shadow: 3px 3px 1px red, 10px 8px 1px black;
+
+}
+
+.Contact img {
+    width: 440px;
+    height: 200px;
+    margin-left: 5px;
+
+}
+
+.Contact .details h1 {
+    margin: 20px 0 20px 0;
+    margin-left: 90px;
+    font-size: 35px;
+}
+.Contact .details h5 {
+    margin-left: 100px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 160px;
+}
+.Contact .details p {
+    margin: -21px -1px 1px 100px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.Contact .details span {
+    font-size: 17px;
+    margin-left: 190px;
+}
+.Contact .button {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.Contact button {
+    padding: 25px;
+    margin-left: 20px;
+}
+.Contact .btn {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 14px 200px;
+}
+
+.Contact .test1 {
+     display: flex;
+}
+
+.Contact .input span {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.Contact input {
+    height: 30px;
+    width: 581px;
+    
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+textarea {
+    resize: none;
+    width: 582px;
+    height: 100px;
+}
+
+
+
+
+@media(max-width: 768px) {
+
+    textarea {
+        resize: none;
+        width: 434px;
+        height: 100px;
+    }
+
+    .Contact .test1 {
+        display:block;
+   }
+   
+
+    .Contact .right {
+        width: 46%;
+        margin-top: 1150px;
+        margin-left: -660px;
+     }
+
+
+
+     .Contact .box_one {
+
+        display: flexbox;
+        padding: 21px 25px;
+        border-radius: 8px;
+        transition: 0.5s all ease;
+        cursor: pointer;
+        margin-left: 110px;
+   
+        background: linear-gradient(662deg, pink, red);
+        box-shadow: 3px 3px 1px red, 6px 5px 1px black;
+    
+    }
+    .Contact .box_two {
+ 
+        padding: 28px 20px;
+        border-radius: 8px;
+        transition: 0.5s all ease;
+        cursor: pointer;
+        
+        height: 538px;
+        width: 500px;
+        margin-top: 540px;
+        margin-left:110px;
+     
+        background: linear-gradient(662deg, pink, red);
+        box-shadow: 3px 3px 1px red, 6px 5px 1px black;
+    
+    }
+    .Contact img {
+        width: 365px;
+        height: 200px;
+        margin-left: 46px;
+    
+    }
+    .Contact .details h1 {
+        margin: 20px 0 20px 0;
+        margin-left: 80px;
+        font-size: 35px;
+    }
+    .Contact .details h5 {
+        margin-left: 100px;
+        font-size: 15px;
+        font-weight: 100;
+        margin-left: 150px;
+    }
+    .Contact .details p {
+        margin: -21px 1px 1px 90px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .Contact .details span {
+        font-size: 17px;
+        margin-left: 175px;
+    }
+    .Contact .button {
+        margin-top: 20px;
+        margin-left: 65px;
+        
+    }
+    .Contact button {
+        padding: 25px;
+        margin-left: 15px;
+        
+    }
+    .Contact .btn {
+        margin-top: 40px;
+        margin-left: 50px;
+        padding: 15px 120px;
+    }
+
+    .Contact input {
+        height: 30px;
+        width: 94%;
+
+    }
+
+} 

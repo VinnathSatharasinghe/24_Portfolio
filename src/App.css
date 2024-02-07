@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+  /* background-color: lightcoral; */
+  background-color: #060417;
+} 
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+} 
+.f_flex{
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+button{
+  border: none;
+  outline: none;
+  background-color: none;
+}
+/* .btn_shadow{
+  padding: 18px 25px;
+  border-radius: 8px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  margin-bottom: 15px;
+  
+}
+.btn_shadow{
+  background: linear-gradient(185deg, lightpink, red);
+  box-shadow: 4px 8px 8px black, 2px -4px 12px red;
+}
+.btn_shadow:hover {
+  background:lightpink;
+  color: purple;
+  transform: translateY(-5px);
+
+} */
+
+.btn_shadow{
+  padding: 18px 25px;
+  border-radius: 8px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border: 2px solid yellow;
+  
+}
+.btn_shadow{
+  /* background: linear-gradient(185deg, lightpink, red);
+  box-shadow: 11px 14px 11px black, 21px -1px 10px black; */
+  background: linear-gradient(292deg, lightsalmon, red);
+  box-shadow: 2px 3px 1px white, 11px 11px 3px black;
+}
+.btn_shadow:hover {
+  background:red;
+  transform: translateY(-8px);
+
+}
+
+
+.button_shadow{
+  padding: 18px 25px;
+  border-radius: 8px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  margin-bottom: 15px;
+  
+}
+.button_shadow{
+  background: linear-gradient(462deg, yellow, red);
+  box-shadow: 3px 3px 1px white, 9px 8px 1px black;
+}
+.button_shadow:hover {
+  transform: translateY(-6px);
+}
+
+.heading {
+  margin: 1px 10px 50px 10px;
+}
+
+.heading h4 {
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 400;
+
+}
+
+.heading h1 {
+  font-size: 50px;
+  color: black;
+}
+
+h1 {
+  color: black;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+
+} 
+
+p {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+
+
+
