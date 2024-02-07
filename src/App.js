@@ -3,7 +3,7 @@ import './App.css'
 
 
 
-import Header from './components/Head/Header'
+import Header from './components/Head/Header.jsx'
 import Home from './components/Home/home'
 import Features from './components/Features/Features'
 import Prof from './components/portfolio/protfolio'
