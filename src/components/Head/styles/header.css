@@ -36,42 +36,41 @@ nav {
   height: 120px;
   width: 95px;
   text-decoration: none;
+
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.link-item.active {
-  transform: translateY(-10px);
-}
+
 .link-icon {
   font-size: 38px;
-  color: #999;
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  /* transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
 }
-.link-item.active .link-icon {
-  color: whitesmoke;
+.link-item .link-icon {
+  color: red;
 }
-.link-text {
+.link-textt {
+  color: azure;
   position: absolute;
   font-size: 12px;
   font-weight: 500;
-  color: white;
-  opacity: 0;
 
   transform: translateY(32px);
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.link-item.active .link-text {
-  opacity: 1;
-}
+
+/* .link-item.active .link-textt {
+  opacity: 11;
+  color: white;
+} */
 .indicator {
   position: absolute;
   top: -23px;
   left: 48px;
   height: 36px;
   width: 36px;
-  box-shadow: 1px 1px 7px 5px red ;
+  box-shadow: 1px 1px 7px 5px red;
   background-color: #060417;
   border: 4px solid yellow;
-  
+
   border-radius: 50%;
   transform: translateX(-50%);
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -83,6 +82,7 @@ nav {
   bottom: -8px;
   height: 24px;
   width: 19px;
+  background: whitesmoke;
 }
 .indicator::before {
   left: -32px;

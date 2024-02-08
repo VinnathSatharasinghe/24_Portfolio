@@ -2,11 +2,13 @@ import React from 'react'
 import './portfoli.css'
 import Card from './cardpro'
 import protfolio_data from './prof_API'
+import Navbar1 from "../Head/Header3.jsx";
 
 const protfolio = () => {
   return (
     <>
         <section className='portfolio top' id='portfolio'>
+        <Navbar1/>
             <div className='container'>
                 <div className='heading text-center'>
                     <h4>Come and Check out My Portfolio</h4>

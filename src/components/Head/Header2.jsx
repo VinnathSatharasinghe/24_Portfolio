@@ -1,4 +1,4 @@
-import "./styles/header.css";
+import "./styles/headertwo.css";
 
 const NavigationBar = () => {
   return (
@@ -47,7 +47,7 @@ const NavigationBar = () => {
                 <span className="link-textt">Profile</span>
               </a>
             </li>
-            <span className="indicator"></span>
+            <span className="indicatorb"></span>
           </ul>
         </nav>
       </body>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import { Typewriter } from "react-simple-typewriter";
+import Navbar1 from "../Head/Header.jsx";
 
 import pic1 from "../pic/b.png";
 import pic2 from "../pic/b.png";
@@ -12,6 +13,7 @@ import pic6 from "../pic/react.svg";
 const home = () => {
   return (
     <section classname="hero" id="home">
+      <Navbar1/>
       <div className="container f_flex top">
         <div className="left top">
           <h2>

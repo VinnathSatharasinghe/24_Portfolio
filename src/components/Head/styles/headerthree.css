@@ -1,0 +1,54 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.link-icon {
+  font-size: 38px;
+  /* transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+}
+.link-item .link-icon {
+  color: red;
+}
+.link-textt {
+  color: azure;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 500;
+
+  transform: translateY(32px);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.indicatorc {
+  position: absolute;
+  top: -23px;
+  left: 236px;
+  height: 36px;
+  width: 36px;
+  box-shadow: 1px 1px 7px 5px red;
+  background-color: #060417;
+  border: 4px solid yellow;
+
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.indicatorc::before,
+.indicatorc::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  height: 24px;
+  width: 19px;
+}
+.indicatorc::before {
+  left: -32px;
+  background: black;
+  border-top-right-radius: 15px;
+  box-shadow: 1px -13px black;
+}
+.indicatorc::after {
+  right: -32px;
+  background: black;
+  border-top-left-radius: 15px;
+  box-shadow: -1px -13px black;
+}

@@ -11,13 +11,25 @@ import {
 // import music from './Pagers/music'
 
 import Music from './Pagers/music/music'
+import Features from './components/Features/Features';
 import Photoset from './Pagers/photo/photoset';
+import Portfolio from './components/portfolio/protfolio';
+
 
 const router = createBrowserRouter ([
 
   {
     path: "/",
     element:<App/>,
+    
+  },
+  {
+    path: "/feature",
+    element:<Features/>,
+  },
+  {
+    path: "/port",
+    element:<Portfolio/>,
   },
   {
     path:"mu",

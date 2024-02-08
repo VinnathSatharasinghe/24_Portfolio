@@ -1,7 +1,9 @@
-import React from 'react'
-import './Features.css'
-import Card from './Card'
-import data from './FeatureAPI'
+import React from "react";
+import "./Features.css";
+import Card from "./Card";
+import data from "./FeatureAPI";
+import Navbar2 from "../Head/Header2.jsx";
+
 
 // import pic1 from '../pic/b.png'
 // import pic2 from '../pic/b.png'
@@ -12,29 +14,31 @@ import data from './FeatureAPI'
 const Features = () => {
   return (
     <>
-     <section className='features top'>
-        <div className='container'>
-            <div className='heading'>
-                <h4>Features</h4>
-                <h1>What I DO</h1>
+      <section className="features top">
+      <Navbar2/>
+        <div className="container">
+          <div className="heading">
+            <h4>Features</h4>
+            <h1>What I DO</h1>
 
-                <div className='content grid'>
-                    {data.map((val, index) => {
-                        return <Card key={index} image={val.image} title={val.title} desc={val.desc} link1={val.link1} />
-                    })}
-                </div>
-             
-
+            <div className="content grid">
+              {data.map((val, index) => {
+                return (
+                  <Card
+                    key={index}
+                    image={val.image}
+                    title={val.title}
+                    desc={val.desc}
+                    link1={val.link1}
+                  />
+                );
+              })}
             </div>
+          </div>
         </div>
-     </section>
-
-        
-
-        
-      
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;
