@@ -11,17 +11,27 @@ section h1 {
   font-weight: bold;
   color: whitesmoke;
 }
-section h1 span {
+section h2 span {
   color: yellow;
 }
+section h2 .test1 {
+  color: ;
+}
+
 section h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+}
+
+section h4 {
   font-size: 50px;
   font-weight: bold;
   color: whitesmoke;
 }
-section h2 span {
+/* section h3 span {
   color: whitesmoke;
-}
+} */
 section p {
   color: whitesmoke;
   font-size: 18px;
@@ -37,7 +47,7 @@ section p {
   font-weight: 500;
   font-weight: bold;
   letter-spacing: 2px;
-  color: black;
+  color: yellow;
   font-size: 15px;
   margin: -230px 10px 0px 10px;
   margin-top: -120%;
@@ -125,7 +135,7 @@ section .right_img img {
   section h2 {
     font-size: 50px;
     font-weight: bold;
-    color: black;
+    color: whitesmoke;
   }
   section h2 span {
     color: whitesmoke;
@@ -135,13 +145,13 @@ section .right_img img {
     font-weight: 500;
     font-weight: bold;
     letter-spacing: 2px;
-    color: black;
+    color: whitesmoke;
     font-size: 15px;
     margin: -130px 10px 0px 10px;
   }
 
   section p {
-    color: black;
+    color: whitesmoke;
     font-size: 18px;
     line-height: 30px;
     margin-top: 20px;

@@ -14,12 +14,12 @@ const home = () => {
     <section classname="hero" id="home">
       <div className="container f_flex top">
         <div className="left top">
-          <h3>WELCOME TO MY WORLD</h3>
-          <h1>
-            Hi, I'm <span>Vinath Satharasinghe</span>
-          </h1>
+          {/* <h4>WELCOME TO MY WORLD</h4> */}
           <h2>
-            <span>
+            Hi, I'm <div className="test1">Vinath Satharasinghe</div>
+          </h2>
+          <h2>
+            <div className="test1">
               <Typewriter
                 words={["Professional Coder.", "Web Developer"]}
                 loop={500}
@@ -29,7 +29,7 @@ const home = () => {
                 deleteSpeed={50}
                 delaySpeed={1000}
               />
-            </span>
+            </div>
           </h2>
 
           <p>

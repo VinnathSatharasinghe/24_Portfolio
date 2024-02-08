@@ -93,7 +93,7 @@ button{
 }
 .button_shadow{
   background: linear-gradient(462deg, yellow, red);
-  box-shadow: 3px 3px 1px white, 9px 8px 1px black;
+  box-shadow: 3px 3px 1px white, 9px 8px 1px yellow;
 }
 .button_shadow:hover {
   transform: translateY(-6px);
@@ -103,22 +103,18 @@ button{
   margin: 1px 10px 50px 10px;
 }
 
-.heading h4 {
+/* .heading h4 {
   color: black;
   letter-spacing: 1px;
   font-weight: 400;
 
-}
+} */
 
 .heading h1 {
   font-size: 50px;
   color: black;
 }
 
-h1 {
-  color: black;
-
-}
 
 .grid {
   display: grid;
