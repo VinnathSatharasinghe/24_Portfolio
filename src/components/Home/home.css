@@ -1,6 +1,6 @@
 section {
   position: relative;
-  margin-top: 120px;
+  margin-top: 10px;
 }
 section h3 {
   font-weight: 100;
@@ -12,10 +12,10 @@ section h1 {
   color: whitesmoke;
 }
 section h2 span {
-  color: yellow;
+  color: whitesmoke;
 }
 section h2 .test1 {
-  color: ;
+  color: yellow;
 }
 
 section h2 {
@@ -25,7 +25,7 @@ section h2 {
 }
 
 section h4 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   color: whitesmoke;
 }
@@ -37,7 +37,7 @@ section p {
   font-size: 18px;
   line-height: 30px;
   margin-top: 20px;
-  margin-right: 620px;
+  margin-right: 680px;
 }
 .hero_btn {
   margin-top: 30%;

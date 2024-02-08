@@ -14,7 +14,6 @@ const home = () => {
     <section classname="hero" id="home">
       <div className="container f_flex top">
         <div className="left top">
-          {/* <h4>WELCOME TO MY WORLD</h4> */}
           <h2>
             Hi, I'm <div className="test1">Vinath Satharasinghe</div>
           </h2>
