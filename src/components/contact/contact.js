@@ -1,6 +1,8 @@
+/* eslint-disable no-template-curly-in-string */
 import React, { useState } from 'react'
 import './contact.css'
 import hand from '../pic/hand.jpg'
+import Navbar5 from "../Head/Header5.jsx";
 
 const Contact = () => {
     const [data, setData] = useState({
@@ -34,6 +36,7 @@ const Contact = () => {
   return (
     <div>
         <section className='Contact' id='contact'>
+        <Navbar5/>
             <div className='container top'>
                 <div className='heading text-center'>
                     <h4>CONTACT</h4>

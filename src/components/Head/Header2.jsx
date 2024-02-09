@@ -15,6 +15,7 @@ const NavigationBar = () => {
         />
       </head>
       <body>
+      <h3 className="link-text">W I N N Y</h3>
         <nav className="nav">
           <ul className="nav-content">
             <li className="nav-list">
@@ -26,25 +27,25 @@ const NavigationBar = () => {
             <li className="nav-list">
               <a href="/feature" className="link-item">
                 <i className="bx bxs-caret-right-square link-icon"></i>
-                <span className="link-textt">Content</span>
+                <span className="link-textt">Features</span>
               </a>
             </li>
             <li className="nav-list">
               <a href="/port" className="link-item">
                 <i className="bx bxs-bar-chart-square link-icon"></i>
-                <span className="link-textt">Analytics</span>
+                <span className="link-textt">Portfolio</span>
               </a>
             </li>
             <li className="nav-list">
-              <a href="#ww" className="link-item">
+              <a href="/resu" className="link-item">
                 <i className="bx bxs-message-rounded link-icon"></i>
-                <span className="link-textt">Comments</span>
+                <span className="link-textt">Experince</span>
               </a>
             </li>
             <li className="nav-list">
-              <a href="#ww" className="link-item">
+              <a href="/con" className="link-item">
                 <i className="bx bxs-user link-icon"></i>
-                <span className="link-textt">Profile</span>
+                <span className="link-textt">Contact</span>
               </a>
             </li>
             <span className="indicatorb"></span>

@@ -1,4 +1,4 @@
-import "./styles/header.css";
+import "./styles/headerfive.css";
 
 const NavigationBar = () => {
   return (
@@ -48,7 +48,7 @@ const NavigationBar = () => {
                 <span className="link-textt">Contact</span>
               </a>
             </li>
-            <span className="indicator"></span>
+            <span className="indicatore"></span>
           </ul>
         </nav>
       </body>

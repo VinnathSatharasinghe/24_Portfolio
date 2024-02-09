@@ -15,6 +15,7 @@ import Features from './components/Features/Features';
 import Photoset from './Pagers/photo/photoset';
 import Portfolio from './components/portfolio/protfolio';
 import Resume from "./components/resume/Resume"
+import Contact from "./components/contact/contact"
 
 
 const router = createBrowserRouter ([
@@ -35,6 +36,10 @@ const router = createBrowserRouter ([
   {
     path: "/resu",
     element:<Resume/>,
+  },
+  {
+    path: "/con",
+    element:<Contact/>,
   },
   {
     path:"mu",
