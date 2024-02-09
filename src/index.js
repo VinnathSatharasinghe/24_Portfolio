@@ -14,6 +14,7 @@ import Music from './Pagers/music/music'
 import Features from './components/Features/Features';
 import Photoset from './Pagers/photo/photoset';
 import Portfolio from './components/portfolio/protfolio';
+import Resume from "./components/resume/Resume"
 
 
 const router = createBrowserRouter ([
@@ -30,6 +31,10 @@ const router = createBrowserRouter ([
   {
     path: "/port",
     element:<Portfolio/>,
+  },
+  {
+    path: "/resu",
+    element:<Resume/>,
   },
   {
     path:"mu",

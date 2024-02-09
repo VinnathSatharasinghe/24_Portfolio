@@ -16,14 +16,6 @@ const App = () => {
 
     <>
        <Home/>
-       {/* <Features/>
-        <Prof/>
-        <Resume/>
-        <br />
-        <br />
-        <br />
-        <Contact/> */}
-
     </>
 
        

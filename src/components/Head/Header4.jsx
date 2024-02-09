@@ -1,5 +1,4 @@
-import "./styles/header.css";
-
+import "./styles/headerfour.css";
 const NavigationBar = () => {
   return (
     <html lang="en">
@@ -36,7 +35,7 @@ const NavigationBar = () => {
               </a>
             </li>
             <li className="nav-list">
-              <a href="/resu" className="link-item">
+              <a href="#ww" className="link-item">
                 <i className="bx bxs-message-rounded link-icon"></i>
                 <span className="link-textt">Comments</span>
               </a>
@@ -47,7 +46,7 @@ const NavigationBar = () => {
                 <span className="link-textt">Profile</span>
               </a>
             </li>
-            <span className="indicator"></span>
+            <span className="indicatord"></span>
           </ul>
         </nav>
       </body>
