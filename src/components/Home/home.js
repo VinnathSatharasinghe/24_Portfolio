@@ -57,7 +57,6 @@ const home = () => {
                 </button>
                 <button className="btn_shadow">
                   <a href="https://www.instagram.com/winny_satharasinghe/">
-                    {" "}
                     <i className="fab fa-instagram"></i>
                   </a>
                 </button>

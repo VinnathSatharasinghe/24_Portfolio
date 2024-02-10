@@ -5,6 +5,17 @@ import Card from "./recard";
 import ResumeApi from "./resumeapi";
 import Navbar4 from "../Head/Header4.jsx";
 
+import cer1 from "../../pictures/'pko.png";
+import cer2 from "../../pictures/Vinnath_satharasinghe20230623-70-3fpxvx.jpg";
+import cer3 from "../../pictures/WEB BEGI.png";
+import cer4 from "../../pictures/bi.png";
+import cer5 from "../../pictures/data studio.png";
+import cer6 from "../../pictures/data studio.png";
+import cer7 from "../../pictures/excel.png";
+import cer8 from "../../pictures/power users.png";
+import cer9 from "../../pictures/wad.png";
+
+
 const Resume = () => {
   return (
     <>
@@ -72,7 +83,26 @@ const Resume = () => {
             </div>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h4>
+          <span>Certificates</span>
+        </h4>
       </section>
+
+      <br />
+      <img src={cer1} alt="" />
+      <img src={cer2} alt="" />
+      <img src={cer3} alt="" />
+      <img src={cer4} alt="" />
+      <img src={cer5} alt="" />
+      <img src={cer6} alt="" />
+      <img src={cer7} alt="" />
+      <img src={cer8} alt="" />
+      <img src={cer9} alt="" />
     </>
   );
 };

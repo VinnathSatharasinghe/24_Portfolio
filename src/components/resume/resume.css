@@ -167,5 +167,15 @@
   margin-left: -120px;
 }
 
+img {
+  margin-top: 150px;
+  margin-left: 350px;
+  width: 850px;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 10px red;
+
+}
+
 @media (max-width: 768px) {
 }
