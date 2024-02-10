@@ -94,15 +94,15 @@ const Resume = () => {
       </section>
 
       <br />
-      <img src={cer1} alt="" />
-      <img src={cer2} alt="" />
-      <img src={cer3} alt="" />
-      <img src={cer4} alt="" />
-      <img src={cer5} alt="" />
-      <img src={cer6} alt="" />
-      <img src={cer7} alt="" />
-      <img src={cer8} alt="" />
-      <img src={cer9} alt="" />
+      <img className="gg" src={cer1} alt="" />
+      <img className="gg" src={cer2} alt="" />
+      <img className="gg" src={cer3} alt="" />
+      <img className="gg" src={cer4} alt="" />
+      <img className="gg" src={cer5} alt="" />
+      <img className="gg" src={cer6} alt="" />
+      <img className="gg" src={cer7} alt="" />
+      <img className="gg" src={cer8} alt="" />
+      <img className="gg" src={cer9} alt="" />
     </>
   );
 };

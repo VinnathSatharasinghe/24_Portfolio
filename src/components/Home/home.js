@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import "./home.css";
 import { Typewriter } from "react-simple-typewriter";
@@ -13,7 +14,7 @@ import pic6 from "../pic/react.svg";
 const home = () => {
   return (
     <section classname="hero" id="home">
-      <Navbar1/>
+      <Navbar1 />
       <div className="container f_flex top">
         <div className="left top">
           <h2>
@@ -43,6 +44,7 @@ const home = () => {
           <div className="hero_btn d_flex">
             <div className="col_1">
               <h4>FIND WITH ME</h4>
+
               <br />
               <div className="button">
                 <button className="btn_shadow">
@@ -65,6 +67,7 @@ const home = () => {
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </button>
+                <h5 className="aa">Downlord My CV</h5>
               </div>
             </div>
 
@@ -83,6 +86,13 @@ const home = () => {
               <button className="btn_shadow">
                 <img src={pic6} alt="" />
               </button>
+              <br />
+
+              <a href="cv.pdf" download="cv.pdf">
+                <button className="btn_cv">
+                  <img src={pic6} alt="" />{" "}
+                </button>
+              </a>
             </div>
 
             <div className="right">
