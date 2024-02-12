@@ -90,7 +90,7 @@ const home = () => {
 
               <a href="cv.pdf" download="cv.pdf">
                 <button className="btn_cv">
-                  <img src={pic6} alt="" />{" "}
+                  <img src={pic6} alt="" />
                 </button>
               </a>
             </div>

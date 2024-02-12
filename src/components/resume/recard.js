@@ -9,9 +9,9 @@ const recard = (props) => {
           <h2>{props.title}</h2>
           <span>{props.year}</span>
         </div>
-        <div className='rate'>
+        {/* <div className='rate'>
           <button className='button_shadow'>{props.rate}</button>
-        </div>
+        </div> */}
       </div>
       <hr />
       <p>{props.desc}</p>

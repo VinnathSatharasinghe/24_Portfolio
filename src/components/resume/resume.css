@@ -176,6 +176,30 @@
   box-shadow: 2px 2px 10px 10px red;
 
 }
+/* .btn_shadow {
+  padding: 18px 25px;
+  border-radius: 8px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border: 2px solid yellow;
+} */
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 8px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background: linear-gradient(292deg, lightsalmon, red);
+  box-shadow: 2px 3px 1px white, 11px 11px 3px black;
+}
+.btn_shadow:hover {
+  background: red;
+  transform: translateY(-8px);
+}
+.button_shadow:hover {
+  transform: translateY(-6px);
+}
 
 @media (max-width: 768px) {
 }
