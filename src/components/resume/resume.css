@@ -4,7 +4,7 @@
 
 .Resume .container .heading {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .Resume h1 {
@@ -19,6 +19,9 @@
   color: aliceblue;
   display: block;
   height: 1em;
+  line-height: 0.7em;
+  outline: none;
+  animation: animatew 4s linear infinite;
 }
 .Resume h2 {
   font-size: 30px;
@@ -174,7 +177,6 @@
   height: 600px;
   border-radius: 20px;
   box-shadow: 2px 2px 10px 10px red;
-
 }
 /* .btn_shadow {
   padding: 18px 25px;

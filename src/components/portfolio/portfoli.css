@@ -21,7 +21,7 @@
   -webkit-box-reflect: below 2px linear-gradient(transparent, red);
   line-height: 0.7em;
   outline: none;
-  animation: animate 15s linear infinite;
+  animation: animate 5s linear infinite;
 }
 
 @keyframes animatew {

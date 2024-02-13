@@ -43,7 +43,7 @@ const home = () => {
 
           <div className="hero_btn d_flex">
             <div className="col_1">
-              <h4>FIND WITH ME</h4>
+              <h4>FIND ME</h4>
 
               <br />
               <div className="button">

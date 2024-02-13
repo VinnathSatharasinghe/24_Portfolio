@@ -1,21 +1,27 @@
 section {
   position: relative;
   margin-top: 10px;
+  
+  
 }
 section h3 {
   font-weight: 100;
   letter-spacing: 2px;
+  
 }
 section h1 {
   font-size: 60px;
   font-weight: bold;
   color: whitesmoke;
+  
+  
 }
 section h2 span {
   color: whitesmoke;
 }
 section h2 .test1 {
   color: yellow;
+  
 }
 
 section h2 {
@@ -58,11 +64,14 @@ section p {
   font-size: 15px;
   margin: -230px 10px 0px 10px;
   margin-top: -120%;
+  
+  
 }
 
 .hero_btn button {
   margin-right: 50px;
   border-radius: 110px 60px 700px;
+  
 }
 
 .hero_btn i {
@@ -73,7 +82,9 @@ section p {
 .hero_btn button img {
   width: 25px;
   height: 25px;
+  
 }
+
 
 .btn_shadow {
   padding: 18px 25px;
