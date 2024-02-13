@@ -6,8 +6,29 @@
   font-weight: bold;
   margin-top: 40px;
   margin-left: 30px;
+  color: #07252d;
+  text-align: center;
+  letter-spacing: 10px;
+  -webkit-box-reflect: below 2px linear-gradient(transparent, red);
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 5s linear infinite;
+}
 
-  color: whitesmoke;
+@keyframes animate {
+  0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% {
+    color: #07252d;
+    text-shadow: none;
+  }
+  18.1%,20%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100% {
+    color: white;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+
+  }
 }
 
 .portfolio h4 {
@@ -21,7 +42,7 @@
 }
 
 .portfolio .box {
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 20px 1px 20px 10px;
   position: relative;
   cursor: pointer;
