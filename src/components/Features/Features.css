@@ -4,6 +4,10 @@
   margin-top: 50px;
   align-items: center;
   margin-left: 420px;
+  -webkit-box-reflect: below 2px linear-gradient(transparent, red);
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 4s linear infinite;
 }
 .features h4 {
   font-size: 100px;
@@ -11,11 +15,61 @@
   margin-top: 120px;
   align-items: center;
   margin-left: 560px;
+  /* -webkit-box-reflect: below 2px linear-gradient(transparent, red); */
+  line-height: 0.7em;
+  outline: none;
+  animation: animatew 15s linear infinite;
+}
+
+
+@keyframes animatew {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #07252d;
+    text-shadow: none;
+  }
+  18.1%,
+  20%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: white;
+    text-shadow: 0 0 10px red, 0 0 30px red, 0 0 60px red, 0 0 90px yellow,
+      0 0 150px red;
+  }
+}
+
+@keyframes animate {
+  0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% {
+    color: #07252d;
+    text-shadow: none;
+  }
+  18.1%,20%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100% {
+    color: white;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+
+  }
 }
 
 .features .box2 {
   padding: 20px;
-  margin-top: 100px;
+  margin-top: 280px;
 }
 .features .box h2 {
   margin: 20px 0 20px 0;
