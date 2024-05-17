@@ -5,7 +5,7 @@ import Card from "./recard";
 import ResumeApi from "./resumeapi";
 import Navbar4 from "../Head/Header4.jsx";
 
-import cer1 from "../../pictures/'pko.png";
+
 import cer2 from "../../pictures/Vinnath_satharasinghe20230623-70-3fpxvx.jpg";
 import cer3 from "../../pictures/WEB BEGI.png";
 import cer4 from "../../pictures/bi.png";
@@ -94,7 +94,6 @@ const Resume = () => {
       </section>
 
       <br />
-      <img className="gg" src={cer1} alt="" />
       <img className="gg" src={cer2} alt="" />
       <img className="gg" src={cer3} alt="" />
       <img className="gg" src={cer4} alt="" />
